@@ -546,7 +546,7 @@ background:linear-gradient(
 
 
 /* ======================================== */
-/* FEATURE_SECTION_01 */
+/* FEATURE_SECTION */
 /* ======================================== */
 
 .feature-section{
@@ -576,6 +576,12 @@ background:linear-gradient(
     color:#0A0A0A;
     margin-bottom:28px;
     max-width:560px;
+}
+
+/* FEATURE_SECTION_02_TITLE_BALANCE */
+
+.feature-grid-reverse .feature-title{
+    font-size:45px;
 }
 
 .feature-title span{
@@ -638,6 +644,34 @@ background:linear-gradient(
     height:auto;
     display:block;
     background:#FFFFFF;
+}
+
+/* FEATURE_SECTION_02_HEADLINE_BOX_ONLY */
+
+.feature-grid-reverse .feature-title{
+    display:inline-block;
+    width:600px;
+    max-width:100%;
+    font-size:45px;
+    line-height:1.06;
+}
+
+/* FEATURE_SECTION_02_BODY_WIDTH_ONLY */
+
+.feature-grid-reverse .feature-text{
+    max-width:620px;
+}
+
+/* FEATURE_SECTION_02_IMAGE_SIZE */
+
+.feature-grid-reverse .feature-image{
+    max-width:620px;
+}
+
+/* FEATURE_SECTION_02_IMAGE_SHADOW */
+
+.feature-grid-reverse .feature-image-wrap{
+    box-shadow:-10px 10px 30px rgba(26,115,232,0.10);
 }
 
 /* ======================================== */
