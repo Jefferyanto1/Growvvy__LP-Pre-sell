@@ -384,6 +384,7 @@ background:linear-gradient(
     }
 }
 
+
 /* ======================================== */
 /* PROBLEM/SOLUTION BREAKDOWN_SECTION */
 /* ======================================== */
@@ -543,3 +544,160 @@ background:linear-gradient(
 
 }
 
+
+/* ======================================== */
+/* FEATURE_SECTION_01 */
+/* ======================================== */
+
+.feature-section{
+    width:100%;
+    background:#FFFFFF;
+    padding:120px 0;
+}
+
+.feature-container{
+    max-width:1400px;
+    margin:0 auto;
+    padding:0 56px;
+}
+
+.feature-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    gap:96px;
+}
+
+.feature-title{
+    font-size:48px;
+    font-weight:600;
+    line-height:1.12;
+    letter-spacing:-1px;
+    color:#0A0A0A;
+    margin-bottom:28px;
+    max-width:560px;
+}
+
+.feature-title span{
+    color:#378EFF;
+}
+
+.feature-text{
+    font-size:19px;
+    font-weight:400;
+    line-height:1.7;
+    color:#4B5563;
+    max-width:560px;
+    margin-bottom:40px;
+}
+
+.feature-list{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.feature-item{
+    display:flex;
+    align-items:flex-start;
+    gap:14px;
+}
+
+.feature-item img{
+    width:20px;
+    height:20px;
+    flex-shrink:0;
+    margin-top:2px;
+}
+
+.feature-item p{
+    font-size:17px;
+    font-weight:500;
+    line-height:1.55;
+    color:#737373;
+}
+
+.feature-image-wrap{
+    display:flex;
+    justify-content:flex-end;
+}
+
+.feature-image{
+    width:100%;
+    max-width:600px;
+    height:auto;
+    display:block;
+}
+
+/* ======================================== */
+/* FEATURE_SECTION_01_RESPONSIVE */
+/* ======================================== */
+
+@media (max-width: 992px){
+
+    .feature-section{
+        padding:72px 0;
+    }
+
+    .feature-container{
+        padding:0 24px;
+    }
+
+    .feature-grid{
+        grid-template-columns:1fr;
+        gap:48px;
+    }
+
+    .feature-content{
+        text-align:center;
+    }
+
+    .feature-title{
+        font-size:36px;
+        line-height:1.12;
+        max-width:100%;
+        margin-bottom:24px;
+    }
+
+    .feature-text{
+        font-size:18px;
+        line-height:1.6;
+        max-width:100%;
+        margin-bottom:32px;
+    }
+
+    .feature-list{
+        gap:16px;
+        max-width:520px;
+        margin:0 auto;
+    }
+
+    .feature-item{
+        text-align:left;
+    }
+
+    .feature-image-wrap{
+        justify-content:center;
+    }
+
+    .feature-image{
+        max-width:520px;
+    }
+
+}
+
+@media (max-width: 576px){
+
+    .feature-title{
+        font-size:32px;
+    }
+
+    .feature-text{
+        font-size:17px;
+    }
+
+    .feature-item p{
+        font-size:15px;
+    }
+
+}
