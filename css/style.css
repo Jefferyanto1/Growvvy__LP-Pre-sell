@@ -620,6 +620,16 @@ background:linear-gradient(
 .feature-image-wrap{
     display:flex;
     justify-content:flex-end;
+    padding:2px;
+    border-radius:12px;
+    overflow:hidden;
+    background:linear-gradient(
+        135deg,
+        rgba(26,115,232,0.45) 0%,
+        rgba(26,115,232,0.18) 50%,
+        rgba(26,115,232,0.38) 100%
+    );
+    box-shadow:0 10px 30px rgba(26,115,232,0.10);
 }
 
 .feature-image{
@@ -627,6 +637,7 @@ background:linear-gradient(
     max-width:600px;
     height:auto;
     display:block;
+    background:#FFFFFF;
 }
 
 /* ======================================== */
