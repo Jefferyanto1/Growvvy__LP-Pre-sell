@@ -900,6 +900,128 @@ background:linear-gradient(
 
 }
 
+/* ======================================== */
+/* WHO_IS_THIS_FOR_SECTION */
+/* ======================================== */
+
+.who-section{
+    width:100%;
+    background:#FFFFFF;
+    padding:120px 0;
+}
+
+.who-container{
+    max-width:1400px;
+    margin:0 auto;
+    padding:0 56px;
+}
+
+.who-header{
+    max-width:980px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.who-header .problem-title{
+    margin-bottom:24px;
+}
+
+.who-header .problem-subtitle{
+    max-width:760px;
+    margin:0 auto;
+}
+
+/* WHO_GRID */
+
+.who-grid{
+    margin-top:72px;
+    max-width:760px;
+    margin-left:auto;
+    margin-right:auto;
+
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:32px;
+    transform:translateX(44px);
+}
+
+.who-column{
+    display:flex;
+    flex-direction:column;
+    gap:24px;
+}
+
+.who-item{
+    position:relative;
+    min-height:44px;
+    background:#EFF3FD;
+    border-radius:12px;
+
+    display:flex;
+    align-items:center;
+    text-align:right;
+
+    padding:0 24px;
+    width:fit-content;
+    min-width:236px;
+    max-width:100%;
+}
+
+.who-item-icon{
+    width:17px;
+    height:17px;
+    position:absolute;
+    top:-6px;
+    left:-6px;
+}
+
+.who-item-text{
+    font-size:16px;
+    font-weight:500;
+    line-height:1.4;
+    color:#0A0A0A;
+}
+
+/* ======================================== */
+/* WHO_IS_THIS_FOR_RESPONSIVE */
+/* ======================================== */
+
+@media (max-width: 992px){
+
+    .who-section{
+        padding:72px 0;
+    }
+
+    .who-container{
+        padding:0 24px;
+    }
+
+    .who-header .problem-title{
+        margin-bottom:18px;
+    }
+
+      .who-grid{
+        grid-template-columns:1fr;
+        gap:24px;
+        margin-top:48px;
+        max-width:520px;
+        transform:none;
+        justify-items:center;
+    }
+
+    .who-column{
+        gap:24px;
+    }
+    
+    .who-item{
+    width:100%;
+    min-width:0;
+    max-width:320px;
+    justify-content:center;
+    }
+
+}
+
 
 /* ======================================== */
 /* FEATURE_SECTION_01_RESPONSIVE */
@@ -1034,5 +1156,4 @@ background:linear-gradient(
     }
 
 }
-
 
