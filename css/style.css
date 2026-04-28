@@ -1157,3 +1157,536 @@ background:linear-gradient(
 
 }
 
+
+/* ======================================== */
+/* PRICING_SECTION */
+/* ======================================== */
+
+.pricing-section{
+    width:100%;
+    background:#FFFFFF;
+    padding:120px 0;
+}
+
+.pricing-container{
+    max-width:1400px;
+    margin:0 auto;
+    padding:0 56px;
+}
+
+.pricing-header{
+    max-width:980px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.pricing-header .problem-title{
+    margin-bottom:24px;
+}
+
+.pricing-header .problem-subtitle{
+    max-width:760px;
+    margin:0 auto;
+}
+
+/* PRICING_PROGRESS_BAR */
+
+.pricing-progress-wrap{
+    margin-top:72px;
+    text-align:center;
+}
+
+.pricing-progress-row{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+}
+
+.pricing-progress-circle{
+    width:38px;
+    height:38px;
+    border-radius:50%;
+    background:#1A73E8;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:18px;
+    font-weight:600;
+    line-height:1;
+    color:#FFFFFF;
+    flex-shrink:0;
+}
+
+.pricing-progress-track{
+    width:220px;
+    height:6px;
+    border-radius:999px;
+    background:#DCE7FB;
+    position:relative;
+    overflow:visible;
+}
+
+.pricing-progress-fill{
+    width:0%;
+    height:100%;
+    background:#9CD323;
+    border-radius:999px;
+}
+
+.pricing-progress-marker{
+    width:14px;
+    height:14px;
+    border-radius:50%;
+    background:#9CD323;
+    position:absolute;
+    top:50%;
+    left:0%;
+    transform:translate(-50%, -50%);
+    box-shadow:0 0 0 4px #FFFFFF;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.pricing-progress-status{
+    margin-top:14px;
+    text-align:center;
+
+    font-size:13px;
+    font-weight:600;
+    line-height:1.3;
+    color:#333333;
+}
+
+/* PRICING_CARD */
+
+.pricing-card{
+    max-width:364px;
+    margin:96px auto 0;
+    background:#EFF3FD;
+    border-radius:12px;
+    padding:40px;
+}
+
+.pricing-card-title{
+    font-size:24px;
+    font-weight:600;
+    line-height:1.3;
+    color:#0A0A0A;
+    text-align:center;
+    margin-bottom:56px;
+}
+
+.pricing-price-row{
+    display:flex;
+    align-items:center;
+    gap:18px;
+    margin-bottom:32px;
+}
+
+.pricing-price{
+    font-size:42px;
+    font-weight:600;
+    line-height:1;
+    color:#0A0A0A;
+    flex-shrink:0;
+}
+
+.pricing-price-text{
+    font-size:16px;
+    font-weight:400;
+    line-height:1.55;
+    color:#4B5563;
+}
+
+.pricing-guarantee{
+    font-size:16px;
+    font-weight:400;
+    line-height:1.55;
+    color:#737373;
+    text-align:center;
+    margin-bottom:24px;
+}
+
+.pricing-divider{
+    width:100%;
+    height:1px;
+    background:rgba(0,0,0,0.10);
+}
+
+/* PRICING_BENEFITS */
+
+.pricing-benefits{
+    margin-top:32px;
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.pricing-benefit-item{
+    display:flex;
+    align-items:flex-start;
+    gap:14px;
+}
+
+.pricing-benefit-item img{
+    width:20px;
+    height:20px;
+    flex-shrink:0;
+    margin-top:2px;
+}
+
+.pricing-benefit-item p{
+    font-size:17px;
+    font-weight:500;
+    line-height:1.55;
+    color:#4B5563;
+}
+
+/* PRICING_BUTTON */
+
+.pricing-card-button{
+    width:100%;
+    max-width:100%;
+    margin:40px auto 0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+
+/* ======================================== */
+/* PRICING_SECTION_RESPONSIVE */
+/* ======================================== */
+
+@media (max-width: 992px){
+
+    .pricing-section{
+        padding:72px 0;
+    }
+
+    .pricing-container{
+        padding:0 24px;
+    }
+
+    .pricing-header .problem-title{
+        margin-bottom:18px;
+    }
+
+    .pricing-progress-wrap{
+        margin-top:48px;
+    }
+
+    .pricing-progress-row{
+        gap:14px;
+    }
+
+    .pricing-progress-circle{
+        width:36px;
+        height:36px;
+        font-size:17px;
+    }
+
+    .pricing-progress-track{
+        width:170px;
+    }
+
+    .pricing-card{
+        margin-top:48px;
+        padding:24px;
+    }
+
+    .pricing-card-title{
+        font-size:22px;
+        margin-bottom:32px;
+    }
+
+    .pricing-price{
+        font-size:36px;
+    }
+
+    .pricing-price-row{
+        gap:14px;
+        margin-bottom:20px;
+    }
+
+    .pricing-guarantee{
+        font-size:15px;
+        margin-bottom:20px;
+    }
+
+    .pricing-benefits{
+        margin-top:24px;
+        gap:16px;
+    }
+
+    .pricing-benefit-item p{
+        font-size:16px;
+    }
+
+    .pricing-card-button{
+        margin-top:24px;
+    }
+
+}
+
+
+/* ======================================== */
+/* FAQ_SECTION */
+/* ======================================== */
+
+.faq-section{
+    width:100%;
+    background:#FFFFFF;
+    padding:120px 0;
+}
+
+.faq-container{
+    max-width:1400px;
+    margin:0 auto;
+    padding:0 56px;
+}
+
+.faq-header{
+    max-width:980px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.faq-header .problem-title{
+    margin-bottom:24px;
+}
+
+.faq-header .problem-subtitle{
+    max-width:760px;
+    margin:0 auto;
+}
+
+/* FAQ_CARD */
+
+.faq-card{
+    max-width:760px;
+    margin:24px auto 0;
+    background:#EFF3FD;
+    border-radius:12px;
+    padding:20px 24px;
+}
+
+.faq-header + .faq-card{
+    margin-top:72px;
+}
+
+.faq-card.active{
+    padding-bottom:24px;
+}
+
+.faq-card-top{
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    gap:20px;
+}
+
+.faq-question{
+    font-size:18px;
+    font-weight:600;
+    line-height:1.35;
+    color:#0A0A0A;
+    padding-right:24px;
+}
+
+.faq-arrow{
+    width:9px;
+    height:auto;
+    flex-shrink:0;
+    margin-top:4px;
+    transition:transform 0.25s ease;
+}
+
+.faq-card.active .faq-arrow{
+    transform:rotate(90deg);
+}
+
+.faq-answer{
+    margin-top:0px;
+    padding-right:24px;
+    font-size:16px;
+    font-weight:400;
+    line-height:1.6;
+    color:#737373;
+    max-width:100%;
+
+    max-height:0;
+    overflow:hidden;
+    opacity:0;
+    transition:max-height 0.28s ease, opacity 0.22s ease;
+}
+
+.faq-card.active .faq-answer{
+    margin-top:12px;
+    max-height:220px;
+    opacity:1;
+}
+
+/* ======================================== */
+/* FAQ_SECTION_RESPONSIVE */
+/* ======================================== */
+
+@media (max-width: 992px){
+
+    .faq-section{
+        padding:72px 0;
+    }
+
+    .faq-container{
+        padding:0 24px;
+    }
+
+    .faq-header .problem-title{
+        margin-bottom:18px;
+    }
+
+    .faq-card{
+        margin-top:24px;
+        padding:20px;
+    }
+
+    .faq-header + .faq-card{
+    margin-top:48px;
+    }
+
+    .faq-question{
+        font-size:17px;
+    }
+
+    .faq-answer{
+        font-size:15px;
+        margin-top:10px;
+        max-width:100%;
+    }
+
+}
+
+
+/* ======================================== */
+/* FOOTER_SECTION */
+/* ======================================== */
+
+.footer-section{
+    width:100%;
+    background:#FFFFFF;
+    padding:120px 0 48px;
+}
+
+.footer-container{
+    max-width:1400px;
+    margin:0 auto;
+    padding:0 56px;
+}
+
+.footer-top{
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    gap:80px;
+}
+
+.footer-brand{
+    max-width:280px;
+}
+
+.footer-logo{
+    width:144px;
+    height:auto;
+    display:block;
+    margin-bottom:18px;
+}
+
+.footer-brand-text{
+    font-size:16px;
+    font-weight:400;
+    line-height:1.6;
+    color:#4B5563;
+}
+
+.footer-links-wrap{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    gap:88px;
+}
+
+.footer-heading{
+    font-size:18px;
+    font-weight:600;
+    line-height:1.4;
+    color:#0A0A0A;
+    margin-bottom:4px;
+}
+
+.footer-column{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.footer-column a{
+    text-decoration:none;
+    font-size:15px;
+    font-weight:400;
+    line-height:1.6;
+    color:#737373;
+}
+
+.footer-column a:hover{
+    color:#0A0A0A;
+}
+
+.footer-divider{
+    width:100%;
+    height:1px;
+    background:rgba(0,0,0,0.10);
+    margin-top:88px;
+}
+
+.footer-copy{
+    margin-top:32px;
+    text-align:center;
+    font-size:15px;
+    font-weight:500;
+    line-height:1.5;
+    color:#333333;
+}
+
+/* ======================================== */
+/* FOOTER_RESPONSIVE */
+/* ======================================== */
+
+@media (max-width: 992px){
+
+    .footer-section{
+        padding:72px 0 32px;
+    }
+
+    .footer-container{
+        padding:0 24px;
+    }
+
+    .footer-top{
+        flex-direction:column;
+        gap:48px;
+    }
+
+    .footer-links-wrap{
+        grid-template-columns:1fr;
+        gap:40px;
+    }
+
+    .footer-divider{
+        margin-top:56px;
+    }
+
+}

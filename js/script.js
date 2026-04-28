@@ -13,3 +13,13 @@ menuToggle.addEventListener("click", function () {
 menuClose.addEventListener("click", function () {
     mobileDrawer.classList.remove("active");
 });
+
+/* FAQ_ACCORDION */
+
+const faqCards = document.querySelectorAll('.faq-card');
+
+faqCards.forEach(card => {
+  card.addEventListener('click', () => {
+    card.classList.toggle('active');
+  });
+});
